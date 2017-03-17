@@ -1,4 +1,4 @@
-FROM centos:7
+FROM blacklabelops/centos:7.3.1611
 
 RUN \
 yum install -y -q xorg-x11-server-Xvfb libXt gtk3 bash curl bzip2 psmisc dbus-x11 libpaper
