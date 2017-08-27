@@ -5,7 +5,7 @@ yum install -y -q xorg-x11-server-Xvfb libXt gtk3 bash curl bzip2 psmisc dbus-x1
 
 RUN \
 cd /opt && \
-curl https://ftp.mozilla.org/pub/firefox/releases/52.0/linux-x86_64/en-US/firefox-52.0.tar.bz2 > firefox-52.0.tar.bz2 && \
+curl https://ftp.mozilla.org/pub/firefox/releases/55.0/linux-x86_64/en-US/firefox-55.0.tar.bz2 > firefox-52.0.tar.bz2 && \
 ls -lah && \
 tar -xjf firefox-52.0.tar.bz2 && \
 rm firefox-52.0.tar.bz2
